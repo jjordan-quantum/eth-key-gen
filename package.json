@@ -1,0 +1,25 @@
+{
+  "name": "eth-key-gen",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "generate": "node src/key-gen.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jjordan-quantum/eth-key-gen.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jjordan-quantum/eth-key-gen/issues"
+  },
+  "homepage": "https://github.com/jjordan-quantum/eth-key-gen#readme",
+  "devDependencies": {
+    "ethereumjs-util": "^7.1.4",
+    "ethereumjs-wallet": "^1.0.2",
+    "web3-utils": "^1.7.3"
+  }
+}
